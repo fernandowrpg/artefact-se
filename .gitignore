@@ -1,0 +1,24 @@
+# dependências
+/node_modules
+/.pnp
+.pnp.*
+
+# build do Next
+/.next/
+/out/
+/build
+next-env.d.ts
+
+# ambiente (nenhum segredo é necessário neste projeto, mas o ignore fica garantido)
+.env
+.env*.local
+
+# logs e sistema
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+*.pem
+
+# typescript
+*.tsbuildinfo
